@@ -30,4 +30,3 @@ if __name__ == "__main__":
     args = ap.parse_args()
     asyncio.run(run(args.tasks, args.concurrency, args.min_latency, args.max_latency))
 
-    asyncio.run(main())
